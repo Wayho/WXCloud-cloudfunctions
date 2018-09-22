@@ -1,4 +1,4 @@
-///新增log_login记录
+//新增log_login记录
 //https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/collection.add.html
 const cloud = require('wx-server-sdk')
 
@@ -31,11 +31,11 @@ exports.main = async (event, context) => {
                 console.log('[云函数] [log_login_add] : ', res)
                 if (res.errMsg)
                     wx.showToast({
-                        title: 'login_add_ok',
+                        title: 'ok_login_add',
                     })
                 else
                     wx.showToast({
-                        title: 'login_add_fail',
+                        title: 'fali_login_add',
                     })
             },
             fail: err => {
@@ -45,4 +45,5 @@ exports.main = async (event, context) => {
                 })
             }
         })
+    }
 */
