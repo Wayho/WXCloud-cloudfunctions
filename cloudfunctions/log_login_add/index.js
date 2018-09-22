@@ -1,4 +1,5 @@
-//新增log_login记录
+///新增log_login记录
+//https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/collection.add.html
 const cloud = require('wx-server-sdk')
 
 cloud.init({})
